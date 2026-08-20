@@ -1,0 +1,39 @@
+{
+  "name": "RobloxNpcPathfinding",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "StartUp": {
+        "$className": "Folder",
+        "Server": {
+          "$path": "src/startup/Server.server.luau"
+        }
+      },
+      "Features": {
+        "$className": "Folder",
+        "NPC": {
+          "$className": "Folder",
+          "NpcServiceServer": {
+            "$path": "src/features/npc/NpcServiceServer.luau"
+          },
+          "Classes": {
+            "$className": "Folder",
+            "NpcServer": {
+              "$path": "src/features/npc/classes/NpcServer.luau"
+            }
+          },
+          "Modules": {
+            "$className": "Folder",
+            "NpcConfig": {
+              "$path": "src/features/npc/modules/NpcConfig.luau"
+            },
+            "NpcUtils": {
+              "$path": "src/features/npc/modules/NpcUtils.luau"
+            }
+          }
+        }
+      }
+    }
+  }
+}
